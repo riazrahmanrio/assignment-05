@@ -3,3 +3,11 @@
     font-weight: 400;
     font-style: normal;
   }
+  .log-text{
+    background-color: #F4F7FF;
+    border-radius: 12px;
+    padding: 16px;
+    color: slategray;
+    margin: 16px;
+    text-align: left;
+  }

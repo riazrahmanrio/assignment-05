@@ -14,3 +14,14 @@ document.getElementById("date").innerText = date;
 document.getElementById("clear").addEventListener('click', function(){
     document.getElementById("log").innerHTML = ``;
 })
+document.getElementById("discover").addEventListener('click', function(){
+    window.location.href = "./blogs.html";
+})
+
+let colors = ["#A9B5DF", "#FF9D23", "#A27B5C", "#F8F3D9", "#DDEB9D", "#EAFAEA", "#E8F9FF", "#FFCFCF", "#B9B28A"]
+
+document.getElementById("theme-btn").addEventListener('click', function(){
+    let n = Math.round(Math.random() * 9);
+    newColor = colors[n];
+    document.body.style.backgroundColor = newColor;
+})

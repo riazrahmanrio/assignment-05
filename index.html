@@ -14,7 +14,7 @@
 <body class="bg-[rgba(244,247,255,1)] poppins py-4">
     <header class="max-w-[1560px] mx-auto ">
         <nav>
-            <div class="navbar bg-base-100 rounded-2xl">
+            <div class="navbar bg-base-100 rounded-2xl p-3">
                 <div class="flex-1 items-center">
                   <a class="text-xl flex items-center"><img src="./assets/logo.png" class="scale-75"><div>Dev<span>Board</span></div></a>
                 </div>
@@ -24,7 +24,7 @@
                       <img src="./assets/checkbox.png" alt="">
                       <h1 id="done">22</h1>
                     </div>
-                    <button><img src="./assets/theme-btn.png" class="scale-75"></button>
+                    <button id="theme-btn"><img src="./assets/theme-btn.png" class="scale-75"></button>
                   </div>
                 </div>
               </div>
@@ -43,7 +43,7 @@
                   <span class="flex"><p>0</p><p id="task">6</p></span>
                 </div>
               </div>
-              <div class="col-span-2 bg-gradient-to-br from-[#3752FD] to-[#9BA8F8] rounded-lg py-5 px-7 flex items-center justify-center gap-7">
+              <div id="discover" class="col-span-2 bg-gradient-to-br from-[#3752FD] to-[#9BA8F8] rounded-lg py-5 px-7 flex items-center justify-center gap-7">
                 <div><img src="./assets/board.png" alt=""></div>
                 <h1 class="text-white">Discover Something <br> New Today!</h1>
               </div>
@@ -62,7 +62,7 @@
                   <div class="card-body p-5">
                     <div><button class="btn bg-white shadow-none">ShopEase</button></div>
                     <h2 id="task-1" class="card-title">Fix Mobile Button Issue</h2>
-                    <p class="bg-white p-3 rounded-lg text-slate-500">If a dog chews shoes whose shoes does he choose?</p>
+                    <p class="bg-white p-3 rounded-lg text-slate-500 para">Ensure the mobile button is responsive and functions correctly across all screen sizes.</p>
                     <hr class="border-dashed border-t-2 my-2">
                     <div class="card-actions flex justify-between">
                       <div>
@@ -79,7 +79,7 @@
                   <div class="card-body p-5">
                     <div><button class="btn bg-white shadow-none">CloudSync</button></div>
                     <h2 id="task-2" class="card-title">Add Dark Mode</h2>
-                    <p class="bg-white p-3 rounded-lg text-slate-500">If a dog chews shoes whose shoes does he choose?</p>
+                    <p class="bg-white p-3 rounded-lg text-slate-500 para">Implement a dark mode toggle to provide users with an option to switch to a darker theme.</p>
                     <hr class="border-dashed border-t-2 my-2">
                     <div class="card-actions flex justify-between">
                       <div>
@@ -96,7 +96,7 @@
                   <div class="card-body p-5">
                     <div><button class="btn bg-white shadow-none">SwiftPay</button></div>
                     <h2 id="task-3" class="card-title">Optimize Home Page</h2>
-                    <p class="bg-white p-3 rounded-lg text-slate-500">If a dog chews shoes whose shoes does he choose?</p>
+                    <p class="bg-white p-3 rounded-lg text-slate-500 para">Enhance the home page by improving load times, simplifying the layout.</p>
                     <hr class="border-dashed border-t-2 my-2">
                     <div class="card-actions flex justify-between">
                       <div>
@@ -113,7 +113,7 @@
                   <div class="card-body p-5">
                     <div><button class="btn bg-white shadow-none">Meta</button></div>
                     <h2 id="task-4" class="card-title">Add New Emoji</h2>
-                    <p class="bg-white p-3 rounded-lg text-slate-500">If a dog chews shoes whose shoes does he choose?</p>
+                    <p class="bg-white p-3 rounded-lg text-slate-500 para">Integrate a new set of emojis to enhance user communication and provide better chat system</p>
                     <hr class="border-dashed border-t-2 my-2">
                     <div class="card-actions flex justify-between">
                       <div>
@@ -130,7 +130,7 @@
                   <div class="card-body p-5">
                     <div><button class="btn bg-white shadow-none">Google LLC</button></div>
                     <h2 id="task-5" class="card-title">Integrate OpenAI API</h2>
-                    <p class="bg-white p-3 rounded-lg text-slate-500">If a dog chews shoes whose shoes does he choose?</p>
+                    <p class="bg-white p-3 rounded-lg text-slate-500 para">Integrate the OpenAI API to enable advanced natural language processing capabilities.</p>
                     <hr class="border-dashed border-t-2 my-2">
                     <div class="card-actions flex justify-between">
                       <div>
@@ -147,7 +147,7 @@
                   <div class="card-body p-5">
                     <div><button class="btn bg-white shadow-none">Glassdoar</button></div>
                     <h2 id="task-6" class="card-title">Improve Job Searching</h2>
-                    <p class="bg-white p-3 rounded-lg text-slate-500">If a dog chews shoes whose shoes does he choose?</p>
+                    <p class="bg-white p-3 rounded-lg text-slate-500 para">Enhance the job search functionality by refining filters, optimizing search algorithms.</p>
                     <hr class="border-dashed border-t-2 my-2">
                     <div class="card-actions flex justify-between">
                       <div>

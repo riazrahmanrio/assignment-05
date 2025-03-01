@@ -26,5 +26,9 @@ function btnDis(id, task){
         newTask.innerText = 'You have completed the task ' + taskName +" at " + newTime;
         newTask.classList.add("log-text");
         document.getElementById("log").appendChild(newTask); 
+        alert("Board Updated Successfully");
+        if(taskNum === 0){
+            alert("Congrats!!!  You have successfully completed all the tasks");
+        }
     })
 } 
